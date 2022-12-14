@@ -6,11 +6,11 @@ import {
   CardActions,
   Typography,
   IconButton,
-} from "@material-ui/core";
+} from "@mui/material";
 
 import useStyles from "./styles";
 
-import { AddShoppingCartIcon } from "@material-ui/icons";
+import { AddShoppingCart } from "@mui/icons-material";
 
 const Item = ({ item }) => {
   const classes = useStyles();
@@ -32,7 +32,7 @@ const Item = ({ item }) => {
         <IconButton aira-label="Add to Card" color="primary">
           {" "}
         </IconButton>
-        <AddShoppingCartIcon />
+        <AddShoppingCart />
       </CardActions>
     </Card>
   );
